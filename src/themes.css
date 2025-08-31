@@ -1,0 +1,395 @@
+/* Chromatic UI Themes - Classes CSS automatiques */
+body {
+  color: var(--theme-text);
+}
+
+/* Classes de couleurs de texte */
+.primary {
+  color: var(--theme-primary) !important;
+}
+
+.primary-light {
+  color: var(--theme-primaryLight) !important;
+}
+
+.primary-dark {
+  color: var(--theme-primaryDark) !important;
+}
+
+.secondary {
+  color: var(--theme-secondary) !important;
+}
+
+.secondary-light {
+  color: var(--theme-secondaryLight) !important;
+}
+
+.secondary-dark {
+  color: var(--theme-secondaryDark) !important;
+}
+
+.accent {
+  color: var(--theme-accent) !important;
+}
+
+.accent-light {
+  color: var(--theme-accentLight) !important;
+}
+
+.accent-dark {
+  color: var(--theme-accentDark) !important;
+}
+
+.text {
+  color: var(--theme-text) !important;
+}
+
+.text-secondary {
+  color: var(--theme-textSecondary) !important;
+}
+
+.text-muted {
+  color: var(--theme-textMuted) !important;
+}
+
+.text-inverse {
+  color: var(--theme-textInverse) !important;
+}
+
+.success {
+  color: var(--theme-success) !important;
+}
+
+.success-light {
+  color: var(--theme-successLight) !important;
+}
+
+.success-dark {
+  color: var(--theme-successDark) !important;
+}
+
+.warning {
+  color: var(--theme-warning) !important;
+}
+
+.warning-light {
+  color: var(--theme-warningLight) !important;
+}
+
+.warning-dark {
+  color: var(--theme-warningDark) !important;
+}
+
+.error {
+  color: var(--theme-error) !important;
+}
+
+.error-light {
+  color: var(--theme-errorLight) !important;
+}
+
+.error-dark {
+  color: var(--theme-errorDark) !important;
+}
+
+.info {
+  color: var(--theme-info) !important;
+}
+
+.info-light {
+  color: var(--theme-infoLight) !important;
+}
+
+.info-dark {
+  color: var(--theme-infoDark) !important;
+}
+
+/* Classes de couleurs de fond */
+.bg-primary {
+  background-color: var(--theme-primary) !important;
+}
+
+.bg-primary-light {
+  background-color: var(--theme-primaryLight) !important;
+}
+
+.bg-primary-dark {
+  background-color: var(--theme-primaryDark) !important;
+}
+
+.bg-secondary {
+  background-color: var(--theme-secondary) !important;
+}
+
+.bg-secondary-light {
+  background-color: var(--theme-secondaryLight) !important;
+}
+
+.bg-secondary-dark {
+  background-color: var(--theme-secondaryDark) !important;
+}
+
+.bg-accent {
+  background-color: var(--theme-accent) !important;
+}
+
+.bg-accent-light {
+  background-color: var(--theme-accentLight) !important;
+}
+
+.bg-accent-dark {
+  background-color: var(--theme-accentDark) !important;
+}
+
+.bg-background {
+  background-color: var(--theme-background) !important;
+}
+
+.bg-background-light {
+  background-color: var(--theme-backgroundLight) !important;
+}
+
+.bg-background-dark {
+  background-color: var(--theme-backgroundDark) !important;
+}
+
+.bg-surface {
+  background-color: var(--theme-surface) !important;
+}
+
+.bg-surface-light {
+  background-color: var(--theme-surfaceLight) !important;
+}
+
+.bg-surface-dark {
+  background-color: var(--theme-surfaceDark) !important;
+}
+
+.bg-success {
+  background-color: var(--theme-success) !important;
+}
+
+.bg-success-light {
+  background-color: var(--theme-successLight) !important;
+}
+
+.bg-success-dark {
+  background-color: var(--theme-successDark) !important;
+}
+
+.bg-warning {
+  background-color: var(--theme-warning) !important;
+}
+
+.bg-warning-light {
+  background-color: var(--theme-warningLight) !important;
+}
+
+.bg-warning-dark {
+  background-color: var(--theme-warningDark) !important;
+}
+
+.bg-error {
+  background-color: var(--theme-error) !important;
+}
+
+.bg-error-light {
+  background-color: var(--theme-errorLight) !important;
+}
+
+.bg-error-dark {
+  background-color: var(--theme-errorDark) !important;
+}
+
+.bg-info {
+  background-color: var(--theme-info) !important;
+}
+
+.bg-info-light {
+  background-color: var(--theme-infoLight) !important;
+}
+
+.bg-info-dark {
+  background-color: var(--theme-infoDark) !important;
+}
+
+/* Classes de couleurs de bordure */
+.border-primary {
+  border-color: var(--theme-primary) !important;
+}
+
+.border-secondary {
+  border-color: var(--theme-secondary) !important;
+}
+
+.border-accent {
+  border-color: var(--theme-accent) !important;
+}
+
+.border-color {
+  border-color: var(--theme-border) !important;
+}
+
+.border-light {
+  border-color: var(--theme-borderLight) !important;
+}
+
+.border-dark {
+  border-color: var(--theme-borderDark) !important;
+}
+
+.border-success {
+  border-color: var(--theme-success) !important;
+}
+
+.border-warning {
+  border-color: var(--theme-warning) !important;
+}
+
+.border-error {
+  border-color: var(--theme-error) !important;
+}
+
+.border-info {
+  border-color: var(--theme-info) !important;
+}
+
+/* Classes utilitaires avec hover */
+.hover-primary:hover {
+  color: var(--theme-primary) !important;
+}
+
+.hover-secondary:hover {
+  color: var(--theme-secondary) !important;
+}
+
+.hover-accent:hover {
+  color: var(--theme-accent) !important;
+}
+
+.hover-bg-primary:hover {
+  background-color: var(--theme-primary) !important;
+}
+
+.hover-bg-secondary:hover {
+  background-color: var(--theme-secondary) !important;
+}
+
+.hover-bg-accent:hover {
+  background-color: var(--theme-accent) !important;
+}
+
+/* Boutons avec thème */
+/* Propriétés communes à tous les boutons */
+.btn-primary,
+.btn-secondary, 
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-accent {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* Effets hover et active pour tous les boutons */
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:active,
+.btn-secondary:active,
+.btn-outline-primary:active,
+.btn-outline-secondary:active,
+.btn-accent:active {
+  transform: translateY(0px) scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques */
+.btn-primary {
+  background-color: var(--theme-primary) !important;
+  color: var(--theme-textInverse) !important;
+  border-color: var(--theme-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--theme-primaryDark) !important;
+  border-color: var(--theme-primaryDark) !important;
+}
+
+.btn-secondary {
+  background-color: var(--theme-secondary) !important;
+  color: var(--theme-textInverse) !important;
+  border-color: var(--theme-secondary) !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--theme-secondaryDark) !important;
+  border-color: var(--theme-secondaryDark) !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--theme-primary) !important;
+  color: var(--theme-textInverse) !important;
+}
+
+.btn-outline-secondary {
+  background-color: transparent !important;
+  color: var(--theme-secondary) !important;
+  border-color: var(--theme-secondary) !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--theme-secondary) !important;
+  color: var(--theme-textInverse) !important;
+}
+
+.btn-accent {
+  background-color: var(--theme-accent) !important;
+  border-color: var(--theme-border) !important;
+}
+
+/* Classes pour les liens */
+.link-primary {
+  color: var(--theme-primary) !important;
+  text-decoration: none;
+}
+
+.link-primary:hover {
+  color: var(--theme-primaryDark) !important;
+}
+
+
+a,
+button,
+input,
+textarea,
+link {
+  cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--theme-textMuted) !important;
+}
+
+.global-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
