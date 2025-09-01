@@ -19,7 +19,7 @@ export const oceanicDark: Theme = {
 
         background: '#0B1426',
         backgroundLight: '#152238',
-        backgroundDark: '#050A12',
+        backgroundDark: '#0B1422',
 
         surface: '#1A2332',
         surfaceLight: '#253040',
