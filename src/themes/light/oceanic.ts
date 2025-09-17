@@ -10,36 +10,33 @@ export const oceanicLight: Theme = {
     primaryLight: '#4A9FD9',
     primaryDark: '#005A8A',
     
-    // Couleurs secondaires - Turquoise
     secondary: '#17A2B8',
     secondaryLight: '#5BC0DE',
     secondaryDark: '#117A8B',
     
-    // Couleurs d'accent - Corail
     accent: '#FF6B6B',
     accentLight: '#FF8E8E',
     accentDark: '#E55555',
     
-    // Couleurs de fond - Blanc cassé avec nuances océan
-    background: '#FAFCFF',
-    backgroundLight: '#FFFFFF',
-    backgroundDark: '#F0F8FF',
-    surface: '#FFFFFF',
-    surfaceLight: '#FAFCFF',
-    surfaceDark: '#F0F8FF',
+    // Backgrounds océaniques avec gradient subtil
+    background: '#F0F9FF',        // Bleu ciel très pâle
+    backgroundLight: '#FFFFFF',   // Blanc pur
+    backgroundDark: '#E0F2FE',    // Bleu ciel plus marqué
     
-    // Couleurs de texte
+    surface: '#FFFFFF',
+    surfaceLight: '#F8FCFF',      // Blanc avec nuance océan
+    surfaceDark: '#E6F3FF',       // Bleu très clair
+    
     text: '#1A365D',
     textSecondary: '#2D5A87',
     textMuted: '#68A3D9',
     textInverse: '#FFFFFF',
     
-    // Couleurs de bordure
-    border: '#B3D9FF',
-    borderLight: '#D6ECFF',
-    borderDark: '#87CEEB',
+    // Bordures océaniques plus contrastées
+    border: '#7DD3FC',            // Bleu ciel moyen
+    borderLight: '#BAE6FD',       // Plus clair
+    borderDark: '#38BDF8',        // Plus foncé
     
-    // Couleurs d'état
     success: '#28A745',
     successLight: '#71DD8A',
     successDark: '#1E7E34',

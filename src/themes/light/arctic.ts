@@ -20,13 +20,14 @@ export const arcticLight: Theme = {
     accentLight: '#90A4AE',
     accentDark: '#455A64',
     
-    // Couleurs de fond - Blanc polaire
-    background: '#FAFAFA',
-    backgroundLight: '#FFFFFF',
-    backgroundDark: '#F5F5F5',
+    // Couleurs de fond - Nuances polaires contrastées
+    background: '#F0F8FF',        // Bleu très pâle (Alice Blue)
+    backgroundLight: '#FFFFFF',   // Blanc pur
+    backgroundDark: '#E3F2FD',    // Bleu glacé plus prononcé
+    
     surface: '#FFFFFF',
-    surfaceLight: '#FAFAFA',
-    surfaceDark: '#F5F5F5',
+    surfaceLight: '#F8FBFF',      // Blanc avec soupçon de bleu
+    surfaceDark: '#ECEFF1',       // Gris-bleu froid
     
     // Couleurs de texte
     text: '#263238',
@@ -34,10 +35,10 @@ export const arcticLight: Theme = {
     textMuted: '#90A4AE',
     textInverse: '#FFFFFF',
     
-    // Couleurs de bordure
-    border: '#E0F2F1',
-    borderLight: '#F1F8E9',
-    borderDark: '#B2DFDB',
+    // Couleurs de bordure - Plus contrastées
+    border: '#B3E5FC',            // Bleu clair plus visible
+    borderLight: '#E1F5FE',       // Très léger
+    borderDark: '#81D4FA',        // Plus marqué
     
     // Couleurs d'état
     success: '#00C853',

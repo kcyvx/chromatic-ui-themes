@@ -18,21 +18,24 @@ export const minimalLight: Theme = {
     accentLight: '#A78BFA',
     accentDark: '#6D28D9',
     
-    background: '#FFFFFF',
-    backgroundLight: '#FFFFFF',
-    backgroundDark: '#FAFAFA',
+    // Backgrounds minimalistes avec contraste clair
+    background: '#FAFAFA',        // Gris très léger
+    backgroundLight: '#FFFFFF',   // Blanc pur
+    backgroundDark: '#F0F0F0',    // Gris clair mais visible
+    
     surface: '#FFFFFF',
     surfaceLight: '#FFFFFF',
-    surfaceDark: '#F5F5F5',
+    surfaceDark: '#F5F5F5',       // Gris très clair
     
     text: '#000000',
     textSecondary: '#374151',
     textMuted: '#9CA3AF',
     textInverse: '#FFFFFF',
     
-    border: '#E5E7EB',
-    borderLight: '#F3F4F6',
-    borderDark: '#D1D5DB',
+    // Bordures minimalistes mais visibles
+    border: '#D1D5DB',            // Gris moyen
+    borderLight: '#E5E7EB',       
+    borderDark: '#9CA3AF',        // Plus marqué
     
     success: '#10B981',
     successLight: '#34D399',

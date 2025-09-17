@@ -17,21 +17,24 @@ export const corporateLight: Theme = {
     accentLight: '#FB923C',
     accentDark: '#C2410C',
     
-    background: '#FFFFFF',
-    backgroundLight: '#FFFFFF',
-    backgroundDark: '#F8FAFC',
+    // Backgrounds corporates avec plus de contraste
+    background: '#F8FAFC',        // Gris très clair
+    backgroundLight: '#FFFFFF',   // Blanc pur
+    backgroundDark: '#E2E8F0',    // Gris plus marqué
+    
     surface: '#FFFFFF',
     surfaceLight: '#FEFEFE',
-    surfaceDark: '#F1F5F9',
+    surfaceDark: '#E2E8F0',       // Même que backgroundDark pour cohérence
     
     text: '#0F172A',
     textSecondary: '#334155',
     textMuted: '#64748B',
     textInverse: '#FFFFFF',
     
-    border: '#E2E8F0',
-    borderLight: '#F1F5F9',
-    borderDark: '#CBD5E1',
+    // Bordures plus visibles
+    border: '#CBD5E1',            // Gris moyen
+    borderLight: '#E2E8F0',       
+    borderDark: '#94A3B8',        // Plus foncé
     
     success: '#059669',
     successLight: '#34D399',
