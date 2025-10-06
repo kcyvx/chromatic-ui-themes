@@ -61,6 +61,7 @@ export interface ThemeContextValue {
   availableThemes: Theme[];
   isDarkMode: boolean;
   toggleDarkMode: () => void;
+  mounted?: boolean; // Ajout de la propriété mounted
 }
 
 export type ThemeCategory = 'light' | 'dark';

@@ -19,8 +19,21 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   defaultTheme = 'oceanic-light',
   themes = allThemes,
 }) => {
-  // Fonction pour récupérer le thème depuis localStorage
+  // État pour gérer l'hydration
+  const [mounted, setMounted] = useState(false);
+
+  // Fonction pour récupérer le thème par défaut (côté serveur safe)
+  const getDefaultTheme = (): Theme => {
+    const foundTheme = themes.find(theme => theme.name === defaultTheme);
+    return foundTheme || themes[0];
+  };
+
+  // Fonction pour récupérer le thème depuis localStorage (côté client uniquement)
   const getSavedTheme = (): Theme => {
+    if (typeof window === 'undefined') {
+      return getDefaultTheme();
+    }
+
     try {
       const savedThemeName = localStorage.getItem(THEME_STORAGE_KEY);
       if (savedThemeName) {
@@ -33,13 +46,18 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
       console.warn('Failed to load theme from localStorage:', error);
     }
     
-    // Fallback sur le thème par défaut
-    const foundTheme = themes.find(theme => theme.name === defaultTheme);
-    return foundTheme || themes[0];
+    return getDefaultTheme();
   };
 
-  const [currentTheme, setCurrentTheme] = useState<Theme>(getSavedTheme);
+  const [currentTheme, setCurrentTheme] = useState<Theme>(getDefaultTheme);
   const [availableThemes] = useState<Theme[]>(themes);
+
+  // Effet pour charger le thème sauvegardé après l'hydration
+  useEffect(() => {
+    const savedTheme = getSavedTheme();
+    setCurrentTheme(savedTheme);
+    setMounted(true);
+  }, []);
 
   // Fonction pour changer de thème avec sauvegarde
   const setTheme = (themeName: string) => {
@@ -47,11 +65,13 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     if (foundTheme) {
       setCurrentTheme(foundTheme);
       
-      // Sauvegarder dans localStorage
-      try {
-        localStorage.setItem(THEME_STORAGE_KEY, foundTheme.name);
-      } catch (error) {
-        console.warn('Failed to save theme to localStorage:', error);
+      // Sauvegarder dans localStorage seulement côté client
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem(THEME_STORAGE_KEY, foundTheme.name);
+        } catch (error) {
+          console.warn('Failed to save theme to localStorage:', error);
+        }
       }
     }
   };
@@ -124,6 +144,8 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     availableThemes,
     isDarkMode,
     toggleDarkMode,
+    // Ajout de l'état mounted pour les composants qui en ont besoin
+    mounted,
   };
 
   return (

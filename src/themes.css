@@ -1,9 +1,7 @@
-/* Chromatic UI Themes - Classes CSS automatiques */
 body {
   color: var(--theme-text);
 }
 
-/* Classes de couleurs de texte */
 .primary {
   color: var(--theme-primary) !important;
 }
@@ -104,7 +102,6 @@ body {
   color: var(--theme-infoDark) !important;
 }
 
-/* Classes de couleurs de fond */
 .bg-primary {
   background-color: var(--theme-primary) !important;
 }
@@ -213,7 +210,6 @@ body {
   background-color: var(--theme-infoDark) !important;
 }
 
-/* Classes de couleurs de bordure */
 .border-primary {
   border-color: var(--theme-primary) !important;
 }
@@ -254,35 +250,280 @@ body {
   border-color: var(--theme-info) !important;
 }
 
-/* Classes utilitaires avec hover */
 .hover-primary:hover {
   color: var(--theme-primary) !important;
+}
+
+.hover-primary-light:hover {
+  color: var(--theme-primaryLight) !important;
+}
+
+.hover-primary-dark:hover {
+  color: var(--theme-primaryDark) !important;
 }
 
 .hover-secondary:hover {
   color: var(--theme-secondary) !important;
 }
 
+.hover-secondary-light:hover {
+  color: var(--theme-secondaryLight) !important;
+}
+
+.hover-secondary-dark:hover {
+  color: var(--theme-secondaryDark) !important;
+}
+
 .hover-accent:hover {
   color: var(--theme-accent) !important;
+}
+
+.hover-accent-light:hover {
+  color: var(--theme-accentLight) !important;
+}
+
+.hover-accent-dark:hover {
+  color: var(--theme-accentDark) !important;
+}
+
+.hover-text:hover {
+  color: var(--theme-text) !important;
+}
+
+.hover-text-secondary:hover {
+  color: var(--theme-textSecondary) !important;
+}
+
+.hover-text-muted:hover {
+  color: var(--theme-textMuted) !important;
+}
+
+.hover-text-inverse:hover {
+  color: var(--theme-textInverse) !important;
+}
+
+.hover-success:hover {
+  color: var(--theme-success) !important;
+}
+
+.hover-success-light:hover {
+  color: var(--theme-successLight) !important;
+}
+
+.hover-success-dark:hover {
+  color: var(--theme-successDark) !important;
+}
+
+.hover-warning:hover {
+  color: var(--theme-warning) !important;
+}
+
+.hover-warning-light:hover {
+  color: var(--theme-warningLight) !important;
+}
+
+.hover-warning-dark:hover {
+  color: var(--theme-warningDark) !important;
+}
+
+.hover-error:hover {
+  color: var(--theme-error) !important;
+}
+
+.hover-error-light:hover {
+  color: var(--theme-errorLight) !important;
+}
+
+.hover-error-dark:hover {
+  color: var(--theme-errorDark) !important;
+}
+
+.hover-info:hover {
+  color: var(--theme-info) !important;
+}
+
+.hover-info-light:hover {
+  color: var(--theme-infoLight) !important;
+}
+
+.hover-info-dark:hover {
+  color: var(--theme-infoDark) !important;
 }
 
 .hover-bg-primary:hover {
   background-color: var(--theme-primary) !important;
 }
 
+.hover-bg-primary-light:hover {
+  background-color: var(--theme-primaryLight) !important;
+}
+
+.hover-bg-primary-dark:hover {
+  background-color: var(--theme-primaryDark) !important;
+}
+
 .hover-bg-secondary:hover {
   background-color: var(--theme-secondary) !important;
+}
+
+.hover-bg-secondary-light:hover {
+  background-color: var(--theme-secondaryLight) !important;
+}
+
+.hover-bg-secondary-dark:hover {
+  background-color: var(--theme-secondaryDark) !important;
 }
 
 .hover-bg-accent:hover {
   background-color: var(--theme-accent) !important;
 }
 
-/* Boutons avec thème */
-/* Propriétés communes à tous les boutons */
+.hover-bg-accent-light:hover {
+  background-color: var(--theme-accentLight) !important;
+}
+
+.hover-bg-accent-dark:hover {
+  background-color: var(--theme-accentDark) !important;
+}
+
+.hover-bg-background:hover {
+  background-color: var(--theme-background) !important;
+}
+
+.hover-bg-background-light:hover {
+  background-color: var(--theme-backgroundLight) !important;
+}
+
+.hover-bg-background-dark:hover {
+  background-color: var(--theme-backgroundDark) !important;
+}
+
+.hover-bg-surface:hover {
+  background-color: var(--theme-surface) !important;
+}
+
+.hover-bg-surface-light:hover {
+  background-color: var(--theme-surfaceLight) !important;
+}
+
+.hover-bg-surface-dark:hover {
+  background-color: var(--theme-surfaceDark) !important;
+}
+
+.hover-bg-success:hover {
+  background-color: var(--theme-success) !important;
+}
+
+.hover-bg-success-light:hover {
+  background-color: var(--theme-successLight) !important;
+}
+
+.hover-bg-success-dark:hover {
+  background-color: var(--theme-successDark) !important;
+}
+
+.hover-bg-warning:hover {
+  background-color: var(--theme-warning) !important;
+}
+
+.hover-bg-warning-light:hover {
+  background-color: var(--theme-warningLight) !important;
+}
+
+.hover-bg-warning-dark:hover {
+  background-color: var(--theme-warningDark) !important;
+}
+
+.hover-bg-error:hover {
+  background-color: var(--theme-error) !important;
+}
+
+.hover-bg-error-light:hover {
+  background-color: var(--theme-errorLight) !important;
+}
+
+.hover-bg-error-dark:hover {
+  background-color: var(--theme-errorDark) !important;
+}
+
+.hover-bg-info:hover {
+  background-color: var(--theme-info) !important;
+}
+
+.hover-bg-info-light:hover {
+  background-color: var(--theme-infoLight) !important;
+}
+
+.hover-bg-info-dark:hover {
+  background-color: var(--theme-infoDark) !important;
+}
+
+.hover-border-primary:hover {
+  border-color: var(--theme-primary) !important;
+}
+
+.hover-border-primary-light:hover {
+  border-color: var(--theme-primaryLight) !important;
+}
+
+.hover-border-primary-dark:hover {
+  border-color: var(--theme-primaryDark) !important;
+}
+
+.hover-border-secondary:hover {
+  border-color: var(--theme-secondary) !important;
+}
+
+.hover-border-secondary-light:hover {
+  border-color: var(--theme-secondaryLight) !important;
+}
+
+.hover-border-secondary-dark:hover {
+  border-color: var(--theme-secondaryDark) !important;
+}
+
+.hover-border-accent:hover {
+  border-color: var(--theme-accent) !important;
+}
+
+.hover-border-accent-light:hover {
+  border-color: var(--theme-accentLight) !important;
+}
+
+.hover-border-accent-dark:hover {
+  border-color: var(--theme-accentDark) !important;
+}
+
+.hover-border-color:hover {
+  border-color: var(--theme-border) !important;
+}
+
+.hover-border-light:hover {
+  border-color: var(--theme-borderLight) !important;
+}
+
+.hover-border-dark:hover {
+  border-color: var(--theme-borderDark) !important;
+}
+
+.hover-border-success:hover {
+  border-color: var(--theme-success) !important;
+}
+
+.hover-border-warning:hover {
+  border-color: var(--theme-warning) !important;
+}
+
+.hover-border-error:hover {
+  border-color: var(--theme-error) !important;
+}
+
+.hover-border-info:hover {
+  border-color: var(--theme-info) !important;
+}
+
 .btn-primary,
-.btn-secondary, 
+.btn-secondary,
 .btn-outline-primary,
 .btn-outline-secondary,
 .btn-accent {
@@ -295,7 +536,6 @@ body {
   cursor: pointer;
 }
 
-/* Effets hover et active pour tous les boutons */
 .btn-primary:hover,
 .btn-secondary:hover,
 .btn-outline-primary:hover,
@@ -314,7 +554,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles spécifiques */
 .btn-primary {
   background-color: var(--theme-primary) !important;
   color: var(--theme-textInverse) !important;
@@ -364,7 +603,6 @@ body {
   border-color: var(--theme-border) !important;
 }
 
-/* Classes pour les liens */
 .link-primary {
   color: var(--theme-primary) !important;
   text-decoration: none;
@@ -374,10 +612,26 @@ body {
   color: var(--theme-primaryDark) !important;
 }
 
+.link-secondary {
+  color: var(--theme-secondary) !important;
+  text-decoration: none;
+}
+
+.link-secondary:hover {
+  color: var(--theme-secondaryDark) !important;
+}
+
+.link-accent {
+  color: var(--theme-accent) !important;
+  text-decoration: none;
+}
+
+.link-accent:hover {
+  color: var(--theme-accentDark) !important;
+}
+
 a,
 button,
-input,
-textarea,
 link {
   cursor: pointer;
 }
@@ -391,4 +645,108 @@ textarea::placeholder {
   max-width: 1300px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.input:focus,
+.input-no-rounded:focus,
+.input-outline-primary:focus,
+.input-outline-secondary:focus,
+.input-outline-accent:focus {
+  border-color: var(--theme-primary);
+}
+
+.input {
+  padding: 8px;
+  background-color: var(--theme-backgroundLight);
+  border: 1px solid var(--theme-border);
+  color: var(--theme-text);
+  outline: none;
+  transition: border .3s;
+}
+
+.input-disabled {
+  padding: 8px;
+  background-color: var(--theme-backgroundLight);
+  border: 1px solid var(--theme-border);
+  color: var(--theme-text);
+  outline: none;
+  transition: border .3s;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.input-outline-primary {
+  background: var(--theme-backgroundLight);
+  border: 1px solid var(--theme-primary);
+  padding: 8px;
+  outline: none;
+  transition: border .3s;
+}
+
+.input-outline-secondary {
+  background: var(--theme-backgroundLight);
+  border: 1px solid var(--theme-secondary);
+  padding: 8px;
+  outline: none;
+  transition: border .3s;
+}
+
+.input-outline-accent {
+  background: var(--theme-backgroundLight);
+  border: 1px solid var(--theme-accent);
+  padding: 8px;
+  outline: none;
+  transition: border .3s;
+}
+
+
+
+
+
+
+/* Dégradé vertical - du transparent vers la couleur de fond */
+.gradient-to-background {
+  background: linear-gradient(to bottom, transparent, var(--theme-background));
+}
+
+/* Variantes selon la direction */
+.gradient-to-background-top {
+  background: linear-gradient(to top, transparent, var(--theme-background));
+}
+
+.gradient-to-background-right {
+  background: linear-gradient(to right, transparent, var(--theme-background));
+}
+
+.gradient-to-background-left {
+  background: linear-gradient(to left, transparent, var(--theme-background));
+}
+
+/* Dégradé diagonal */
+.gradient-to-background-diagonal {
+  background: linear-gradient(45deg, transparent, var(--theme-background));
+}
+
+/* Dégradé radial (du centre vers l'extérieur) */
+.gradient-to-background-radial {
+  background: radial-gradient(circle, transparent, var(--theme-background));
+}
+
+/* Avec transition plus douce (plusieurs points de couleur) */
+.gradient-to-background-smooth {
+  background: linear-gradient(to bottom, 
+    transparent 0%, 
+    rgba(var(--bg-background-rgb), 0.1) 25%,
+    rgba(var(--bg-background-rgb), 0.5) 50%,
+    rgba(var(--bg-background-rgb), 0.8) 75%,
+    var(--bg-background) 100%
+  );
+}
+
+/* Version avec opacité personnalisable */
+.gradient-to-background-fade {
+  background: linear-gradient(to bottom, 
+    transparent 0%, 
+    var(--theme-background) 60%
+  );
 }

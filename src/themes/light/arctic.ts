@@ -6,7 +6,7 @@ export const arcticLight: Theme = {
   category: 'light',
   colors: {
     // Couleurs principales - Bleu glaciaire
-    primary: '#01579B',
+    primary: '#01579bff',
     primaryLight: '#4FC3F7',
     primaryDark: '#00366B',
     
@@ -20,27 +20,23 @@ export const arcticLight: Theme = {
     accentLight: '#90A4AE',
     accentDark: '#455A64',
     
-    // Couleurs de fond - Nuances polaires contrastées
-    background: '#F0F8FF',        // Bleu très pâle (Alice Blue)
-    backgroundLight: '#FFFFFF',   // Blanc pur
-    backgroundDark: '#E3F2FD',    // Bleu glacé plus prononcé
+    background: '#F9F9F9',
+    backgroundLight: '#FFFFFF',
+    backgroundDark: '#E3F2FD',
     
     surface: '#FFFFFF',
-    surfaceLight: '#F8FBFF',      // Blanc avec soupçon de bleu
-    surfaceDark: '#ECEFF1',       // Gris-bleu froid
-    
-    // Couleurs de texte
+    surfaceLight: '#F8FBFF',
+    surfaceDark: '#ECEFF1',
+
     text: '#263238',
     textSecondary: '#455A64',
     textMuted: '#90A4AE',
     textInverse: '#FFFFFF',
+
+    border: '#B3E5FC',
+    borderLight: '#E1F5FE',
+    borderDark: '#81D4FA',
     
-    // Couleurs de bordure - Plus contrastées
-    border: '#B3E5FC',            // Bleu clair plus visible
-    borderLight: '#E1F5FE',       // Très léger
-    borderDark: '#81D4FA',        // Plus marqué
-    
-    // Couleurs d'état
     success: '#00C853',
     successLight: '#69F0AE',
     successDark: '#00A043',

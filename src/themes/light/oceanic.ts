@@ -20,7 +20,7 @@ export const oceanicLight: Theme = {
     
     // Backgrounds océaniques avec gradient subtil
     background: '#F0F9FF',        // Bleu ciel très pâle
-    backgroundLight: '#FFFFFF',   // Blanc pur
+    backgroundLight: '#F9FDFF',   // Blanc pur
     backgroundDark: '#E0F2FE',    // Bleu ciel plus marqué
     
     surface: '#FFFFFF',

@@ -29,3 +29,18 @@ export const useToggleDarkMode = () => {
   const { toggleDarkMode } = useTheme();
   return toggleDarkMode;
 };
+
+// Nouveau hook utilitaire pour vérifier si l'hydration est terminée
+export const useThemeMounted = () => {
+  const { mounted } = useTheme();
+  return mounted ?? false;
+};
+
+// Hook combiné pour éviter les problèmes d'hydration
+export const useHydratedDarkMode = () => {
+  const { isDarkMode, mounted } = useTheme();
+  return {
+    isDarkMode,
+    mounted: mounted ?? false
+  };
+};
