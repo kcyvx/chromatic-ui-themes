@@ -1,4 +1,3 @@
-
 import { Theme } from '../../types';
 
 export const galaxyLight: Theme = {
@@ -6,45 +5,56 @@ export const galaxyLight: Theme = {
   displayName: 'Galaxy Light',
   category: 'light',
   colors: {
-    primary: '#6200EA',
-    primaryLight: '#B388FF',
-    primaryDark: '#4527A0',
+    // Violet éclatant cohérent avec la version dark
+    primary: '#7C3AED',           // Violet vif
+    primaryLight: '#A78BFA',      // Violet clair
+    primaryDark: '#5B21B6',       // Violet profond
     
-    secondary: '#3F51B5',
-    secondaryLight: '#7986CB',
-    secondaryDark: '#303F9F',
+    // Indigo secondaire moderne
+    secondary: '#6366F1',         // Indigo vif
+    secondaryLight: '#818CF8',    
+    secondaryDark: '#4F46E5',     
     
-    accent: '#FF4081',
-    accentLight: '#FF80AB',
-    accentDark: '#F50057',
+    // Accent rose-violet
+    accent: '#EC4899',            // Rose moderne
+    accentLight: '#F472B6',       
+    accentDark: '#DB2777',        
     
-    background: '#F9F7FF',
-    backgroundLight: '#FFFFFF',
-    backgroundDark: '#F3E5F5',
-    surface: '#FFFFFF',
-    surfaceLight: '#FAFAFA',
-    surfaceDark: '#F8F5FF',
+    // Backgrounds blancs/clairs
+    background: '#FFFFFF',        // Blanc pur
+    backgroundLight: '#FAFAFA',   // Blanc cassé très léger
+    backgroundDark: '#F5F5F5',    // Gris très clair
     
-    text: '#1A237E',
-    textSecondary: '#3949AB',
-    textMuted: '#9575CD',
-    textInverse: '#FFFFFF',
+    surface: '#FFFFFF',           // Surface blanche
+    surfaceLight: '#FAFAFA',      // Surface légèrement grise
+    surfaceDark: '#F9FAFB',       // Surface avec teinte subtile
     
-    border: '#D1C4E9',
-    borderLight: '#E8EAF6',
-    borderDark: '#B39DDB',
+    // Textes optimisés pour lisibilité sur fond clair
+    text: '#111827',              // Presque noir
+    textSecondary: '#4B5563',     // Gris foncé
+    textMuted: '#6B7280',         // Gris moyen (bien plus lisible)
+    textInverse: '#FFFFFF',       // Blanc pour contraste
     
-    success: '#00C853',
-    successLight: '#69F0AE',
-    successDark: '#00A043',
-    warning: '#FFB300',
-    warningLight: '#FFCC02',
-    warningDark: '#FF8F00',
-    error: '#FF1744',
-    errorLight: '#FF5983',
-    errorDark: '#D50000',
-    info: '#2196F3',
-    infoLight: '#64B5F6',
-    infoDark: '#1976D2',
+    // Borders cohérentes et subtiles
+    border: '#E5E7EB',            // Gris clair
+    borderLight: '#F3F4F6',       // Gris très clair
+    borderDark: '#D1D5DB',        // Gris moyen
+    
+    // Status colors modernes (identiques à dark)
+    success: '#34D399',           
+    successLight: '#6EE7B7',      
+    successDark: '#059669',       
+    
+    warning: '#FBBF24',           
+    warningLight: '#FCD34D',      
+    warningDark: '#D97706',       
+    
+    error: '#F87171',             
+    errorLight: '#FCA5A5',        
+    errorDark: '#DC2626',         
+    
+    info: '#60A5FA',              
+    infoLight: '#93C5FD',         
+    infoDark: '#2563EB',          
   },
 };

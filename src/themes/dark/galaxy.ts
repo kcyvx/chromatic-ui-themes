@@ -1,4 +1,3 @@
-
 import { Theme } from '../../types';
 
 export const galaxyDark: Theme = {
@@ -6,45 +5,56 @@ export const galaxyDark: Theme = {
   displayName: 'Galaxy Dark',
   category: 'dark',
   colors: {
-    primary: '#B388FF',
-    primaryLight: '#E1BEE7',
-    primaryDark: '#9C27B0',
+    // Violet éclatant et moderne
+    primary: '#AB65FF',           // Violet vif mais pas agressif
+    primaryLight: '#C4B5FD',      // Violet clair doux
+    primaryDark: '#7C3AED',       // Violet intense
     
-    secondary: '#7986CB',
-    secondaryLight: '#C5CAE9',
-    secondaryDark: '#5C6BC0',
+    // Bleu-violet secondaire cohérent
+    secondary: '#818CF8',         // Indigo moderne
+    secondaryLight: '#A5B4FC',    
+    secondaryDark: '#6366F1',     
     
-    accent: '#FF80AB',
-    accentLight: '#FFB2DD',
-    accentDark: '#FF4081',
+    // Accent rose-violet
+    accent: '#F472B6',            // Rose moderne
+    accentLight: '#F9A8D4',       
+    accentDark: '#EC4899',        
     
-    background: '#0D0B1A',
-    backgroundLight: '#1A1625',
-    backgroundDark: '#050308',
-    surface: '#1A1625',
-    surfaceLight: '#252030',
-    surfaceDark: '#0F0D15',
+    // Backgrounds avec noir pur
+    background: '#000000',        // Noir pur comme demandé
+    backgroundLight: '#0A0A0A',   // Très légèrement gris
+    backgroundDark: '#000000',    // Noir pur aussi
     
-    text: '#E8EAF6',
-    textSecondary: '#C5CAE9',
-    textMuted: '#9575CD',
-    textInverse: '#1A237E',
+    surface: '#111111',           // Surface légèrement grise
+    surfaceLight: '#1A1A1A',      // Surface élevée
+    surfaceDark: '#080808',       // Surface basse
     
-    border: '#512DA8',
-    borderLight: '#673AB7',
-    borderDark: '#4527A0',
+    // Textes optimisés pour lisibilité
+    text: '#F3F4F6',              // Blanc cassé pour confort visuel
+    textSecondary: '#D1D5DB',     // Gris clair
+    textMuted: '#9CA3AF',         // Gris moyen (bien plus lisible)
+    textInverse: '#0F0F0F',       // Presque noir pour contraste
     
-    success: '#69F0AE',
-    successLight: '#9CFFB5',
-    successDark: '#00C853',
-    warning: '#FFCC02',
-    warningLight: '#FFFF8D',
-    warningDark: '#FFB300',
-    error: '#FF5983',
-    errorLight: '#FFADD6',
-    errorDark: '#FF1744',
-    info: '#64B5F6',
-    infoLight: '#90CAF9',
-    infoDark: '#2196F3',
+    // Borders cohérentes avec le thème
+    border: '#27272A',            // Gris foncé subtil
+    borderLight: '#3F3F46',       // Gris moyen
+    borderDark: '#18181B',        // Gris très foncé
+    
+    // Status colors modernes
+    success: '#34D399',           
+    successLight: '#6EE7B7',      
+    successDark: '#059669',       
+    
+    warning: '#FBBF24',           
+    warningLight: '#FCD34D',      
+    warningDark: '#D97706',       
+    
+    error: '#F87171',             
+    errorLight: '#FCA5A5',        
+    errorDark: '#DC2626',         
+    
+    info: '#60A5FA',              
+    infoLight: '#93C5FD',         
+    infoDark: '#2563EB',          
   },
 };

@@ -30,9 +30,9 @@ export const minimalDark: Theme = {
     textMuted: '#9CA3AF',
     textInverse: '#000000',
     
-    border: '#374151',
-    borderLight: '#4B5563',
-    borderDark: '#1F2937',
+    border: '#2b2d2f',
+    borderLight: '#484a4cff',
+    borderDark: '#1d1e1fff',
     
     success: '#34D399',
     successLight: '#6EE7B7',

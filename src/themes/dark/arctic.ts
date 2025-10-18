@@ -22,7 +22,7 @@ export const arcticDark: Theme = {
     
     // Couleurs de fond - Nuit polaire profonde
     background: '#0F1419',
-    backgroundLight: '#1A252F',
+    backgroundLight: '#131B22',
     backgroundDark: '#0A0E13',
     surface: '#1A252F',
     surfaceLight: '#263238',

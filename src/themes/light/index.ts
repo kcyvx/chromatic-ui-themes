@@ -3,6 +3,7 @@ export { corporateLight } from './corporate';
 export { crimsonLight } from './crimson';
 export { cyberpunkLight } from './cyberpunk';
 export { earthLight } from './earth';
+export { emeraudeLight } from './emeraude';
 export { forestLight } from './forest';
 export { galaxyLight } from './galaxy';
 export { minimalLight } from './minimal';
@@ -18,6 +19,7 @@ import { corporateLight } from './corporate';
 import { crimsonLight } from './crimson';
 import { cyberpunkLight } from './cyberpunk';
 import { earthLight } from './earth';
+import { emeraudeLight } from './emeraude';
 import { forestLight } from './forest';
 import { galaxyLight } from './galaxy';
 import { minimalLight } from './minimal';
@@ -34,6 +36,7 @@ export const lightThemes = [
   crimsonLight,
   cyberpunkLight,
   earthLight,
+  emeraudeLight,
   forestLight,
   galaxyLight,
   minimalLight,
