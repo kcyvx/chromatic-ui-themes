@@ -702,4 +702,49 @@ textarea::placeholder {
 
 
 
+.badge {
+  background: var(--theme-surface);
+  padding: 3px;
+  color: var(--theme-textInverse);
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
 
+.badge-primary {
+  background: var(--theme-primary);
+  padding: 3px;
+  color: var(--theme-textInverse);
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
+
+.badge-primary {
+  background: var(--theme-primary);
+  padding: 3px;
+  color: var(--theme-textInverse);
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
+
+.badge-accent {
+  background: var(--theme-accent);
+  padding: 3px 5px;
+  color: var(--theme-textInverse);
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
+
+.badge-accent {
+  background: var(--theme-accent);
+  padding: 3px 5px;
+  color: var(--theme-textInverse);
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
+
+.badge-outline {
+  outline: 1px solid var(--theme-border);
+  padding: 3px 5px;
+  font-size: .75rem;
+  border-radius: 0.5rem;
+}
