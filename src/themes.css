@@ -530,7 +530,6 @@ body {
   display: inline-flex;
   text-decoration: none;
   padding: 8px;
-  border-radius: 6px;
   border: 1px solid;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -700,51 +699,36 @@ textarea::placeholder {
 }
 
 
+.badge, .badge-primary, .badge-secondary, .badge-accent, .badge-outline{      
+  display: inline-flex;  
+  align-items: center; 
+  gap: 0.375rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  border-radius: 0.5rem;
+   border: 1px solid var(--theme-border);
+}
 
-
-.badge {
+.badge{
   background: var(--theme-surface);
-  padding: 3px;
-  color: var(--theme-textInverse);
-  font-size: .75rem;
-  border-radius: 0.5rem;
 }
 
-.badge-primary {
+.badge-primary{
   background: var(--theme-primary);
-  padding: 3px;
-  color: var(--theme-textInverse);
-  font-size: .75rem;
-  border-radius: 0.5rem;
 }
 
-.badge-primary {
-  background: var(--theme-primary);
-  padding: 3px;
-  color: var(--theme-textInverse);
-  font-size: .75rem;
-  border-radius: 0.5rem;
+.badge-secondary{
+  background: var(--theme-secondary);
 }
 
-.badge-accent {
+.badge-accent{
   background: var(--theme-accent);
-  padding: 3px 5px;
-  color: var(--theme-textInverse);
-  font-size: .75rem;
-  border-radius: 0.5rem;
 }
 
-.badge-accent {
-  background: var(--theme-accent);
-  padding: 3px 5px;
-  color: var(--theme-textInverse);
-  font-size: .75rem;
-  border-radius: 0.5rem;
-}
-
-.badge-outline {
-  outline: 1px solid var(--theme-border);
-  padding: 3px 5px;
-  font-size: .75rem;
-  border-radius: 0.5rem;
+.badge-outline{
+  background: transparent;
 }
