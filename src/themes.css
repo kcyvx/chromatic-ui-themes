@@ -713,6 +713,9 @@ textarea::placeholder {
    border: 1px solid var(--theme-border);
 }
 
+.badge-primary, .badge-secondary, .badge-accent{
+  color: var(--theme-textInverse);
+}
 .badge{
   background: var(--theme-surface);
 }
