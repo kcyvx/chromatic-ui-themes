@@ -699,7 +699,7 @@ textarea::placeholder {
 }
 
 
-.badge, .badge-primary, .badge-secondary, .badge-accent, .badge-outline{      
+.badge, .badge-primary, .badge-secondary, .badge-accent, .badge-outline, .badge-outline-primary, .badge-outline-secondary, .badge-outline-accent{      
   display: inline-flex;  
   align-items: center; 
   gap: 0.375rem;
@@ -732,6 +732,19 @@ textarea::placeholder {
   background: var(--theme-accent);
 }
 
-.badge-outline{
-  background: transparent;
+
+.badge-outline, .badge-outline-primary, .badge-outline-secondary, .badge-outline-accent{
+   background: transparent;
+}
+
+.badge-outline-primary{
+ border: 1px solid var(--theme-primary) !important;
+}
+
+.badge-outline-secondary{
+  border: 1px solid var(--theme-secondary) !important;
+}
+
+.badge-outline-accent{
+ border: 1px solid var(--theme-accent) !important;
 }

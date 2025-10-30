@@ -1,6 +1,6 @@
 {
   "name": "chromatic-ui-themes",
-  "version": "1.2.19",
+  "version": "1.2.21",
   "description": "Une bibliothèque de thèmes React moderne avec support Tailwind CSS",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
