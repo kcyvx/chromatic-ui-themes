@@ -4,6 +4,7 @@ export { crimsonLight } from './crimson';
 export { cyberpunkLight } from './cyberpunk';
 export { earthLight } from './earth';
 export { emeraudeLight } from './emeraude';
+export { emberLight } from './ember';
 export { forestLight } from './forest';
 export { galaxyLight } from './galaxy';
 export { minimalLight } from './minimal';
@@ -20,6 +21,7 @@ import { crimsonLight } from './crimson';
 import { cyberpunkLight } from './cyberpunk';
 import { earthLight } from './earth';
 import { emeraudeLight } from './emeraude';
+import { emberLight } from './ember';
 import { forestLight } from './forest';
 import { galaxyLight } from './galaxy';
 import { minimalLight } from './minimal';
@@ -37,6 +39,7 @@ export const lightThemes = [
   cyberpunkLight,
   earthLight,
   emeraudeLight,
+  emberLight,
   forestLight,
   galaxyLight,
   minimalLight,

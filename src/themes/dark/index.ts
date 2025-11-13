@@ -4,6 +4,7 @@ export { crimsonDark } from './crimson';
 export { cyberpunkDark } from './cyberpunk';
 export { earthDark } from './earth';
 export { emeraudeDark } from './emeraude';
+export { emberDark } from './ember';
 export { forestDark } from './forest';
 export { galaxyDark } from './galaxy';
 export { minimalDark } from './minimal';
@@ -20,6 +21,7 @@ import { crimsonDark } from './crimson';
 import { cyberpunkDark } from './cyberpunk';
 import { earthDark } from './earth';
 import { emeraudeDark } from './emeraude';
+import { emberDark } from './ember';
 import { forestDark } from './forest';
 import { galaxyDark } from './galaxy';
 import { minimalDark } from './minimal';
@@ -37,6 +39,7 @@ export const darkThemes = [
   cyberpunkDark,
   earthDark,
   emeraudeDark,
+  emberDark,
   forestDark,
   galaxyDark,
   minimalDark,
