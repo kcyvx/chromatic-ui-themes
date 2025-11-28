@@ -1,4 +1,5 @@
 export { arcticLight } from './arctic';
+export { astoneLight } from './astone';
 export { corporateLight } from './corporate';
 export { crimsonLight } from './crimson';
 export { cyberpunkLight } from './cyberpunk';
@@ -16,6 +17,7 @@ export { sunsetLight } from './sunset';
 export { vintageLight } from './vintage';
 
 import { arcticLight } from './arctic';
+import { astoneLight } from './astone';
 import { corporateLight } from './corporate';
 import { crimsonLight } from './crimson';
 import { cyberpunkLight } from './cyberpunk';
@@ -34,6 +36,7 @@ import { vintageLight } from './vintage';
 
 export const lightThemes = [
   arcticLight,
+  astoneLight,
   corporateLight,
   crimsonLight,
   cyberpunkLight,

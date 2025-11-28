@@ -1,4 +1,5 @@
 export { arcticDark } from './arctic';
+export { astoneDark } from './astone';
 export { corporateDark } from './corporate';
 export { crimsonDark } from './crimson';
 export { cyberpunkDark } from './cyberpunk';
@@ -16,6 +17,7 @@ export { sunsetDark } from './sunset';
 export { vintageDark } from './vintage';
 
 import { arcticDark } from './arctic';
+import { astoneDark } from './astone';
 import { corporateDark } from './corporate';
 import { crimsonDark } from './crimson';
 import { cyberpunkDark } from './cyberpunk';
@@ -34,6 +36,7 @@ import { vintageDark } from './vintage';
 
 export const darkThemes = [
   arcticDark,
+  astoneDark,
   corporateDark,
   crimsonDark,
   cyberpunkDark,
