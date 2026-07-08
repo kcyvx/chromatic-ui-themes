@@ -6,9 +6,9 @@ export const emeraudeDark: Theme = {
   category: 'dark',
   colors: {
     // Couleurs principales - Vert émeraude moderne
-    primary: '#10B981',
-    primaryLight: '#34D399',
-    primaryDark: '#059669',
+    primary: '#0EA982',
+    primaryLight: '#0e9b78',
+    primaryDark: '#0EA982',
     
     // Couleurs secondaires - Vert jade élégant
     secondary: '#14B8A6',
