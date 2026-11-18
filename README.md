@@ -1,5 +1,7 @@
 # Chromatic UI Themes
 
+[![Publié sur Snipped](https://snipped.dev/badge.svg)](https://snipped.dev/project/cmwgpglhu000008k1x70r7wfi)
+
 Une librairie de thèmes React moderne et flexible avec support TypeScript, conçue pour créer des interfaces utilisateur cohérentes et accessibles.
 
 ##  Fonctionnalités
